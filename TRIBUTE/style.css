@@ -1,0 +1,109 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Kanit", sans-serif;
+   
+}
+
+/* Body and Typography */
+body {
+    line-height: 1.6;
+    background-color: #412234;
+    color: #333;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    color: rgb(32, 31, 31);
+    border-radius:20px;
+    background-color: #B49FCC;
+    box-shadow:4px 4px 4px rgba(0, 0, 0, 0.6);
+    position: relative;
+}
+.header-desc{
+    text-align:center;
+}
+.header-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-right: 20px;
+    border: 2px solid white;
+    position:absolute;
+    left:20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+    font-style: italic;
+}
+
+/* Sections */
+section {
+    margin-bottom: 20px;
+    background: white;
+    padding: 20px;
+    color: rgb(32, 31, 31);
+    border-radius:20px;
+    background-color: #B49FCC;
+    box-shadow:4px 4px 4px rgba(0,0,0,0.6);
+}
+
+section h2 {
+    margin-bottom: 15px;
+    color: #EAD7D7;
+    font-size: 1.8em;
+    text-shadow:-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+/* Movies and Awards List */
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #412234;
+    color: white;
+    border-radius: 5px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    header p, section h2, ul li {
+        font-size: 1em;
+    }
+
+    body {
+        padding: 10px;
+    }
+    .header-img {
+        height:90px;
+        width:90px;
+    }
+}
